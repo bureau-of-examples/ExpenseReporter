@@ -4,7 +4,7 @@ describe("Expense objects", function () {
     var expense,expenseItem;
     beforeEach(function(){
 
-        expenseItem = new ExpenseItem(100);
+        expenseItem = new ExpenseItem("Taxi", "taxi fee from A to B", 100);
         expense = new Expense(expenseItem);
     });
 
