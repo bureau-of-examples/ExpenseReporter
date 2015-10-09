@@ -1,3 +1,5 @@
+"use strict";
+
 describe("expenseDataService", function(){
 
     beforeEach(module("app"));

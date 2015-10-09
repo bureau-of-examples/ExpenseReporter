@@ -1,3 +1,5 @@
+"use strict";
+
 describe("expenseController", function(){
 
     var $controllerConstroller;
